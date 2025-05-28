@@ -1,23 +1,57 @@
-
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.so
-*.dll
-*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
 
-# Virtual environment folders
-.venv/
+# Virtual Environment
+.env
+.venv
 env/
 venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Project specific
+wandb/
+models/*.pt
+models/*.npz
+*.log
+
+# Docker
+.docker/
+docker-compose.override.yml
 
 # Data files and outputs
 *.csv
 *.tsv
-*.log
 *.npy
-*.pt
 *.h5
 
 # Model checkpoints
@@ -25,17 +59,6 @@ checkpoints/
 *.ckpt
 *.pth
 *.onnx
-
-# Jupyter Notebook checkpoints (keep the notebooks themselves)
-.ipynb_checkpoints/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# IDE and Editor folders
-.vscode/
-.idea/
 
 # Temp files
 *.tmp
