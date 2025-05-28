@@ -1,0 +1,42 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.pyd
+*.egg-info/
+
+# Virtual environment folders
+.venv/
+env/
+venv/
+
+# Data files and outputs
+*.csv
+*.tsv
+*.log
+*.npy
+*.pt
+*.h5
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.pth
+*.onnx
+
+# Jupyter Notebook checkpoints (keep the notebooks themselves)
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor folders
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.bak
